@@ -1,0 +1,82 @@
+/*icon*/
+.icons{
+  position: fixed;
+  top: 30%;
+  left: 0%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.icons a{
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+  margin: 2px;
+  text-align: right;
+  border-radius: 0px 50px 50px 100px;
+  transform: translate(-140px, 0px);
+  transition: all 0.5s;
+  color: white;
+}
+
+.icons a:hover{
+  transform: translate(0px, 0px);
+}
+
+.icons a:hover i{
+  transform: rotate(360deg);
+  transition: all 0.5s;
+}
+
+.icons a i{
+  margin-left: 25px;
+  background-color: rgb(0, 0, 0);
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  place-items: right;
+}
+
+.Facebook{
+  background-color: blue;
+  color: white;
+}
+
+.icons a i.fa-facebook-f{
+  color: blue;
+}
+
+.Instagram{
+  background-color: pink;
+  color: white;
+}
+
+.icons a i.fa-instagram{
+  color: pink;
+}
+.Twitter{
+  background-color: aqua;
+  color: white;
+}
+
+.icons a i.fa-twitter{
+  color: aqua;
+}
+
+.Youtube{
+  background-color: red;
+  color: antiquewhite;
+}
+
+.icons a i.fa-youtube{
+  color: red;
+}
+
+.h2{
+  text-shadow: 5px 5px black;
+}
